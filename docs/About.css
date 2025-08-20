@@ -1,0 +1,174 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: #111;
+    color: #fff;
+}
+
+.header .logo {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.navbar a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    color: #000000;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-top: 150px;
+    margin-bottom: 15px;
+    background-color: black;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 18px;
+    background-color: black;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 8%;
+    gap: 40px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 12px;
+
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(255, 255, 255);
+}
+
+
+.mission {
+    text-align: center;
+    padding: 60px 8%;
+    background: #000000;
+}
+
+.mission h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.mission p {
+    font-size: 16px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.values {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+}
+
+.value-box {
+    background: #333333;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    transition: transform 0.3s;
+
+}
+
+.value-box:hover {
+    transform: translateY(-8px);
+}
+
+.value-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.value-box p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: #aaa;
+    font-size: 14px;
+}
+
+.hero {
+    background: url("image/classic-car-9212734.webp") no-repeat center/cover;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.logo {
+    color: white;
+    background-color: rgb(205, 34, 34);
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}

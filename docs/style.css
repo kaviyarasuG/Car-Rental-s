@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+h3 {
+    color: rgb(0, 129, 155);
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    background: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    ransition: 0.3s;
+}
+
+.btn:hover {
+    background: #d62828;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e63946;
+}
+
+.hero {
+    background: url("image/hero.jpg") no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.featured {
+    padding: 50px;
+    text-align: center;
+}
+
+.car-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+
+}
+
+.car-card:hover {
+    transform: translateY(-25px);
+}
+
+.car-card {
+    background: #333333;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgb(255, 255, 255);
+    transition: transform 0.3s;
+
+}
+
+.car-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.search {
+    background: #000000;
+    padding: 50px;
+    text-align: center;
+}
+
+.search form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.search input,
+.search select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.hero {
+    background: url("image/forhead.webp") no-repeat center/cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.but {
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.but:hover {
+
+    transform: scale(1.3);
+    transition: 0.5s;
+    background-color: black;
+    color: white;
+
+}
+
+.logo {
+    color: white;
+    background-color: rgb(205, 34, 34);
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(2.5);
+    transition: 0.5s;
+}
